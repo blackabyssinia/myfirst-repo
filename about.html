@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>JavaScript Output Methods</h1>
+  <div id="output"></div>
+  
+  <script>
+    // 1. Write to HTML element
+    document.getElementById("output").innerHTML = 
+      "<p>This text was inserted with innerHTML</p>";
+    
+    // 2. document.write() - only use during page load
+    document.write("<p>Added with document.write()</p>");
+    
+    // 3. Alert box
+    alert("This is an alert message!");
+    
+    // 4. Console logging
+    console.log("Message logged to console");
+    console.log("Current time:", new Date().toLocaleTimeString());
+  </script>
+</body>
+</html>
